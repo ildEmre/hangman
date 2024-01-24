@@ -1,0 +1,44 @@
+muhendis
+doktor
+ogretmen
+ressam
+asistan
+asci
+eczaci
+polis
+marangoz
+yazar
+dansci
+astronom
+hemsire
+mimar
+elektrikci
+kameraman
+gazeteci
+disi
+sanatci
+terapist
+fizyoterapist
+psikolog
+pilot
+fotografci
+veteriner
+kuyumcu
+jeolog
+biyolog
+kimyager
+kasiyer
+satis temsilcisi
+programci
+arkeolog
+istatistikci
+radyolog
+gida muhendisi
+ucus gorevlisi
+jeofizik muhendisi
+ziraat muhendisi
+terzi
+elektronik teknisyeni
+oyuncu
+deniz bilimci
+arastirmaci

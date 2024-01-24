@@ -1,0 +1,40 @@
+amsterdam
+barcelona
+cairo
+delhi
+edinburgh
+florence
+geneva
+havana
+istanbul
+jakarta
+kyoto
+lisbon
+moscow
+nairobi
+oslo
+prague
+rome
+seoul
+tokyo
+vienna
+warsaw
+zurich
+beirut
+casablanca
+dublin
+frankfurt
+helsinki
+jakarta
+kuala lumpur
+lima
+marrakech
+nairobi
+osaka
+panama city
+quebec city
+reykjavik
+santiago
+taipei
+ulaanbaatar
+vancouver
