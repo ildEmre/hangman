@@ -24,6 +24,7 @@ int main() {
 	int secim;
 	int kelimeTuru;
 	int dilSecim = 0;
+	while(dilSecim != 1 && dilSecim != 2){
 	cout << "Choose a language: (TR: 1, EN: 2)" << endl;
 	cin >> dilSecim;
 	if(dilSecim == 1){
@@ -252,10 +253,8 @@ int main() {
 			}
 		}
 	}
-	else{
-		cout << "Invalid choice. Please try again." << endl;
-		main();
 	}
+	
 	vector<string> kelimeler(50);
 	random_device rd;
 	mt19937 gen(rd());
