@@ -63,6 +63,7 @@ int main() {
 			cout << "Invalid choice. Returning to main menu..." << endl;
 			std::this_thread::sleep_for(std::chrono::seconds(3));
 			main();
+			return 0;
 		}
 	}
 	if (secim == 1) {
@@ -75,6 +76,7 @@ int main() {
 			cout << "Invalid choice. Returning to main menu...";
 			std::this_thread::sleep_for(std::chrono::seconds(3));
 			main();
+			return 0;
 		}
 	}
 	
@@ -113,6 +115,7 @@ int main() {
 			cout << "Invalid choice. Returning to main menu..." << endl;
 			std::this_thread::sleep_for(std::chrono::seconds(3));
 			main();
+			return 0;
 		}
 		tahmin = string(kelime.length(), '_');
 		for (int i = 0; i < kelime.length(); i++) {
@@ -151,6 +154,7 @@ int main() {
 					}		
 					else if (input == 1) {
 						main();
+						return 0;
 					}
 					else if (input == 2) {
 						cout << "Leaving the game. Goodbye!" << endl;
@@ -170,6 +174,7 @@ int main() {
 					}		
 					else if (input == 1) {
 						main();
+						return 0;
 					}
 					else if (input == 2) {
 						cout << "Leaving the game. Goodbye!" << endl;
@@ -226,6 +231,7 @@ int main() {
 			}
 			else if (input == 1) {
 				main();
+				return 0;
 			}
 			else if (input == 2) {
 				cout << "Leaving the game. Goodbye!" << endl;
@@ -245,6 +251,7 @@ int main() {
 			}
 			else if (input == 1) {
 				main();
+				return 0;
 			}
 			else if (input == 2) {
 				cout << "Leaving the game. Goodbye!" << endl;
@@ -280,6 +287,7 @@ int main() {
 			cout << "Gecersiz secim. Ana menuye donuluyor..." << endl;
 			std::this_thread::sleep_for(std::chrono::seconds(3));
 			main();
+			return 0;
 		}
 	}
 	if (secim == 1) {
@@ -292,6 +300,7 @@ int main() {
 			cout << "Gecersiz secim. Ana menuye donuluyor...";
 			std::this_thread::sleep_for(std::chrono::seconds(3));
 			main();
+			return 0;
 		}
 	}
 	
@@ -330,6 +339,7 @@ int main() {
 			cout << "Gecersiz secim. Oyundan cikiliyor..." << endl;
 			std::this_thread::sleep_for(std::chrono::seconds(3));
 			main();
+			return 0;
 		}
 		tahmin = string(kelime.length(), '_');
 		for (int i = 0; i < kelime.length(); i++) {
@@ -367,6 +377,7 @@ int main() {
 					}		
 					else if (input == 1) {
 						main();
+						return 0;
 					}
 					else if (input == 2) {
 						cout << "Oyundan cikiliyor. Gorusmek uzere!" << endl;
@@ -386,6 +397,7 @@ int main() {
 					}		
 					else if (input == 1) {
 						main();
+						return 0;
 					}
 					else if (input == 2) {
 						cout << "Oyundan cikiliyor. Gorusmek uzere!" << endl;
@@ -442,6 +454,7 @@ int main() {
 			}
 			else if (input == 1) {
 				main();
+				return 0;
 			}
 			else if (input == 2) {
 				cout << "Oyundan cikiliyor. Gorusmek uzere!" << endl;
@@ -461,6 +474,7 @@ int main() {
 			}
 			else if (input == 1) {
 				main();
+				return 0;
 			}
 			else if (input == 2) {
 				cout << "Oyundan cikiliyor. Gorusmek uzere!" << endl;
